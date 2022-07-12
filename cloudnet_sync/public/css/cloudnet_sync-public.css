@@ -1,0 +1,340 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* The grid: Four equal columns that floats next to each other */
+
+body{
+    overflow-x: hidden;
+}
+.col-md-4.product-div {
+    position: inherit;
+}
+.row.product_container_grid {
+    position: relative !important;
+    width: 100%;
+    display: inline-block;
+}
+.thumbnail_images {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.thumb_img {
+    width: auto !important;
+    height: auto;
+    padding: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.thumbnail-de {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 30%;
+    background: #fff;
+    width: 750px;
+    transition: all 1s;
+    height: auto;
+    z-index: 9999;
+    margin: 0 auto !important;
+    right: 0;
+    display: inline-block !important;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    left: 0;
+    border-bottom: 4px solid #999;
+}
+.thumbnail:hover .thumbnail-de {
+    opacity: 1;
+    visibility: visible;
+}
+.thumbnail.product-information .thumbnail-de {
+    padding: 20px;
+}
+.thumb-description {
+    display: flex;
+}
+.thumbnail_hover_images {
+    width: 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+        flex: auto 1 0;
+}
+.thumb-description img {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    
+}
+span.a-button-inner {
+
+    background-color: #e66149;
+    /*/ size: 18px; /*/
+    color: #fff !important;
+    /*/ padding: 2px 2px 2px 2px; /*/
+    /*/ border-bottom-color: black; /*/
+    border: 1px solid #000;
+    /*/ text-decoration: none; /*/
+    font-size: 18px;
+    line-height: 10px;
+    padding: 6px 10px;
+    border-radius: 0;
+} 
+span.a-button-inner a {
+    color: #fff;
+    text-decoration: none!important;
+    font-size: 12px;
+}
+
+.product-text { 
+    padding: 0 10px;
+    width: 85%;    
+}
+.products-price {
+    width: 32%;
+    text-align: center;
+}
+.entry-content a {
+    box-shadow: none !important;
+}
+
+
+
+
+
+
+.items-list {
+    box-shadow: -2px 1px 14px #e5e6e8;
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:0px;
+    margin-bottom:15px;
+    width:100%;
+}
+
+
+@media only screen and (max-width:400px)  {
+    .items-list {
+        height:110px;
+    }
+    .items-list .kmtext {
+        padding-bottom:6px;
+    }
+    .items-list img
+    {
+        float:left;
+        width:40%;
+        height:100%;
+        margin-right:7px;
+    }
+    .items-list .righttxt {
+        width:100%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width:401px) and (max-width:500px)  {
+    .items-list {
+        height:200px;
+    }
+    .items-list .kmtext {
+        padding-bottom:20px;
+    }
+    .items-list img
+    {
+        float:left;
+        width:45%;
+        height:100%;
+        margin-right:7px;
+    }
+    .items-list .righttxt {
+        width:100%;
+        padding: 15px;
+    }
+}
+
+.pro_list{
+    list-style: none;
+}
+ul.pro_list span.a-button-inner{
+    margin-left: 10px;
+}
+ul.pro_list span.a-button-inner a {
+    font-size: 13px;
+    box-shadow: none !important;
+}
+ul.pro_list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.pro_list .col-sm-8 h3 {
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+ul.pro_list .col-sm-4 {
+    width: 20%;
+    display: inline-block;
+}
+ul.pro_list .col-sm-4 img {
+    width: 100%;
+}
+ul.pro_list .col-sm-8 {
+    width: 78%;
+    display: inline-block;
+}
+
+header.entry-header {
+    display: none;
+}
+.entry-content {
+    float: none !important;
+    width: 100% !important;
+}
+/*******updated**********/
+.col-md-4.product-div {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 12px;
+    position: static;
+    padding: 5px;
+    float: left;
+}
+.thumbnail.product-information {
+    position: inherit;
+    /*/ display: block; /*/
+    /*/ height: auto; /*/
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.thumbnail.product-information h5 {
+    color: #4c4c4c;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    letter-spacing: .2px;
+    margin: 0;
+    padding-top: 0;
+    min-height: 40px;
+}
+.thumbnail.product-information h4 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
+.product-text{
+    font-size: 12px; 
+} 
+.product-text h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #e66149;
+}
+.cart-btn .btn {
+    background: #f98d1b;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.ctrn {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row-1 {
+    width: 100%;
+}
+
+.col-img {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+.col-content {
+    width: 80%;
+}
+
+.my-div {
+    display: flex;
+    justify-content: left; 
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+.cart-info h2 {
+    margin: 0;
+}
+.col-img img {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+.cart-info h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #0167b1;
+}
+.price {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+/*.col-md-4.product-div:nth-child(3n) .thumbnail-de {
+    right: 0;
+    left: auto;
+}*/
+@media (max-width:767px){
+    .col-md-4.product-div, .thumbnail-de {
+    width: 100%;
+}
+.thumb-description {
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail_hover_images {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: auto;
+}
+.product-text {
+    padding: 0;
+    width: 100%;
+}
+.products-price > p {
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+.products-price {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.thumbnail.product-information {
+    position: relative;
+}
+.thumbnail_images {
+    height: auto;    
+    overflow: visible;
+}
+
+}

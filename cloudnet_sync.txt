@@ -1,0 +1,1 @@
+Get product deatils from cloudnet360.com server and showcase them on shop page. Also makes checkout process on cloudnet360 when user want to checkout from wordpress site.

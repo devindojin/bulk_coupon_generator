@@ -1,0 +1,56 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.full_width{
+    width:100%;
+    display:inline-block;
+    font-family:Arial, sans-serif;
+}
+.dv-flex {
+    display: flex;
+    justify-content: center;
+}
+.dv-flex form{ width:100%;display: flex;}
+.dv-flex form input.form-control{height:auto;font-size:50px;width:65%;    text-align: center;}       
+.txt-baseline {
+    align-items: baseline;
+}
+.code {
+    font-size:60px;
+    font-weight: 600;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin:0 10px;
+}
+.rdm_ticket {
+    width: 35%;
+    float: right;
+    line-height: 30px;
+    background-image: radial-gradient( #0a82ed,#0b477b);
+    padding: 30px;
+    border-radius: 10px;
+    color:#fff;
+    font-size:18px;
+    font-weight:600
+}
+.rdm_ticket:hover{color:#fff;text-decoration:center}
+.lbl {
+    color: red;
+    font-weight: 600;
+}
+.notication_div span {
+    color: #000;
+    font-size: 16px;
+
+}
+.desc {
+    background: #cfe2f3;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    margin: 0 20px;          
+    font-weight:600;
+    text-align: center;
+}

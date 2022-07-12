@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.cardc-coupon{
+    position: relative;
+    margin-top: 20px;
+    padding: .7em 2em 1em;
+    min-width: 255px;
+
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+
+.customlink {
+    letter-spacing: -.5em;
+}
+.customlink li {
+    display: inline-block;
+    letter-spacing: 0;
+} 
+.customlink li span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.customlink li a {
+    display: block;
+    padding: 5px 10px;
+    background: #cfe2f3;
+    color: #272727;
+    font-size: 18px;
+    border: 1px solid #272727;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.customlink li img{
+
+    width: 150px;
+    padding-left: 20px;
+
+}
+
